@@ -1,0 +1,32 @@
+body {
+  background-color: rgba(200, 200, 200, 1);
+}
+#tarjeta-de-perfil {
+  width: 350px;
+  text-align: center;
+  background-color: rgba(0, 0, 150, 0.5);
+  padding-block: 25px;
+  margin: auto;
+}
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+#nombre {
+  font-family: Helvetica;
+}
+#sigueme {
+  background-color: rgba(173, 216, 230, 1);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 20px;
+}
+#descripcion {
+  width: 300px;
+  margin: 0 auto;
+}
