@@ -17,6 +17,36 @@ img {
 }
 #nombre {
   font-family: Helvetica;
+  font-size: 30px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(0, 0, 150, 0.5);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 1);
+}
+#profesion {
+  font-family: Helvetica;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(0, 0, 150, 0.5);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 1);
+}
+#universidad {
+  font-family: Helvetica;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(0, 0, 150, 0.5);
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 1);
 }
 #sigueme {
   background-color: rgba(173, 216, 230, 1);
@@ -27,6 +57,7 @@ img {
   margin: 20px;
 }
 #descripcion {
+  color: rgba(255, 255, 255, 1);
   width: 300px;
   margin: 0 auto;
 }
