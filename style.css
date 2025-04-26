@@ -1,64 +1,50 @@
 body {
-  background-color: rgba(200, 200, 200, 1);
+  background-color: #FDF5E6; /* Beige claro */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
+
 #tarjeta-de-perfil {
-  width: 33.33%;
-  height: 100%;
+  background-color: #FFFFFF; /* Blanco */
+  border: 2px solid #8B4513; /* Marrón cacao */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 85%;
   text-align: center;
-  background-color: rgba(0, 0, 150, 0.5);
-  padding-block: 25px;
-  margin: auto;
 }
+
+h1, h2 {
+  color: #556B2F; /* Verde oliva */
+  
+}
+
+/*
+Tarea: Tengo que ajustar el tamaño de la imagen para que no se vea tan grande
+*/
 img {
   display: block;
   margin: 0 auto;
   border-radius: 50%;
-  width: 200px;
-  height: 200px;
+  width: 20%;
+  height: 10%; 
 }
-#nombre {
-  font-family: Helvetica;
-  font-size: 30px;
-  color: rgba(255, 255, 255, 1);
-  text-align: center;
-  margin: 10px;
-  padding: 10px;
-  background-color: rgba(0, 0, 150, 0.5);
-  border-radius: 10px;
-  border: 2px solid rgba(255, 255, 255, 1);
+
+h3 {
+  color: #8B4513; /* Marrón cacao */
 }
-#profesion {
-  font-family: Helvetica;
-  font-size: 20px;
-  color: rgba(255, 255, 255, 1);
-  text-align: center;
-  margin: 10px;
-  padding: 10px;
-  background-color: rgba(0, 0, 150, 0.5);
-  border-radius: 10px;
-  border: 2px solid rgba(255, 255, 255, 1);
+
+a {
+  color: #DAA520; /* Dorado suave */
+  text-decoration: none;
 }
-#universidad {
-  font-family: Helvetica;
-  font-size: 20px;
-  color: rgba(255, 255, 255, 1);
-  text-align: center;
-  margin: 10px;
-  padding: 10px;
-  background-color: rgba(0, 0, 150, 0.5);
-  border-radius: 10px;
-  border: 2px solid rgba(255, 255, 255, 1);
+
+a:hover {
+  text-decoration: underline;
 }
-#sigueme {
-  background-color: rgba(173, 216, 230, 1);
-  border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  margin: 20px;
-}
-#descripcion {
-  color: rgba(255, 255, 255, 1);
-  width: 300px;
-  margin: 0 auto;
-}
+
